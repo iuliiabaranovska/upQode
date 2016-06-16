@@ -12,7 +12,7 @@ body {
 
 .phone {
     color: #fff;
-    padding: 0 2vw;    
+    padding: 0 2vw;
     line-height: 4;
 }
 
@@ -21,12 +21,54 @@ body {
     margin: 0 !important;
 }
 
-.footer--item{
+.footer--item {}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.soc--item {
+    display: inline;
+    padding-right: 1vw;
+}
+
+.fb {
+    color: #007dac;
+}
+
+.tw {
+    color: #00bbdd;
+}
+
+.gp {
+    color: #ef5f53;
+}
+
+.lin {
+    color: #1e91c4;
+}
+
+.background--gray {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 3em;
+        line-height: 3;
+}
+
+.language{
+    // width: 70%;
+    // margin: auto;
+    display: inline-block;
+    vertical-align: middle;
 
 }
 
-.list{
-	list-style-type: none;
-    padding: 0;
-    margin: 0;
+.flag{
+    display: inline;
+}
+
+.copyright{
+    display: inline-block;
 }
